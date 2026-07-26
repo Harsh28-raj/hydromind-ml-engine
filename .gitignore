@@ -1,0 +1,23 @@
+# Environment variables (CRITICAL: Never commit secrets)
+.env
+*.env
+
+# Python Bytecode & Cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual Environments
+.venv/
+env/
+venv/
+ENV/
+
+# IDE Configuration
+.vscode/
+.idea/
+
+# OS specific files
+.DS_Store
+Thumbs.db
